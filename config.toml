@@ -1,0 +1,10 @@
+baseURL = "http://blog-url.com/"
+languageCode = "en-us"
+title = "Blog title goes here"
+enableRobotsTXT = true
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
+[params]
+  description = "Blog description goes here"

@@ -1,0 +1,8 @@
+{{- $pathUrl := .Get "pathUrl" -}}
+{{- $path := .Get "path" -}}
+
+{{- $files := readDir $path -}}
+{{- range $files }}
+<br>
+<img src="{{$pathUrl}}/{{.Name}}" alt="">
+{{- end }}
