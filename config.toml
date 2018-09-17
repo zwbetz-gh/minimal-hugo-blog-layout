@@ -2,6 +2,7 @@ baseURL = "http://blog-url.com/"
 languageCode = "en-us"
 title = "Blog title goes here"
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 
 [permalinks]
   post = "/:year/:month/:title/"
