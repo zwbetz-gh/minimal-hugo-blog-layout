@@ -8,7 +8,7 @@ The home page is a list of posts by publish date, from newest to oldest. There i
 
 Put your CSS, JS, and image files under `static/`. When the site is generated, i.e. when running the `hugo` command, everything under `static/` will be copied to `public/`. 
 
-## Local development environment setup
+## Run it
 
 1. [Install hugo](https://gohugo.io/getting-started/installing/)
 1. Open a command line and run:
