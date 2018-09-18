@@ -6,7 +6,7 @@ This layout has no CSS styling. It is merely a starting point for a minimal hugo
 
 The home page is a list of posts by publish date, from newest to oldest. There is a basic nav with links to posts, about, and contact pages. 
 
-Put your CSS, JS, and image files under `static/`. When the site is generated, i.e. when running the `hugo` command, everything under `static/` will be copied to `public/`. 
+Put your CSS, JS, and image files under `static/`. When the site is generated, i.e. when running the `hugo` command, everything under `static/` will be copied to the root of `public/`. 
 
 ## Run it
 
@@ -19,6 +19,12 @@ Put your CSS, JS, and image files under `static/`. When the site is generated, i
 
 ## Examples
 
-Create new posts: `hugo new post/<your-post-title-here>.md`
+Create a new post: `hugo new post/<post-title-here>.md`
+
+Create a new page: `hugo new <page-title-here>.md` (then optionally update the nav in `layouts/_default/baseof.html`)
 
 Use the `listimages` [shortcode](https://gohugo.io/content-management/shortcodes/) to list all images in a given directory: `{{< listimages path="/static/img/photo-dir" pathUrl="/img/photo-dir">}}`
+
+## Acknowledgments
+
+Thank you to all the contributers at [hugo](https://github.com/gohugoio/hugo/graphs/contributors), [hugo docs](https://github.com/gohugoio/hugoDocs/graphs/contributors), and [hugo discussion](https://discourse.gohugo.io/).
