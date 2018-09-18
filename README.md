@@ -27,4 +27,4 @@ Use the `listimages` [shortcode](https://gohugo.io/content-management/shortcodes
 
 ## Acknowledgments
 
-Thank you to all the contributers at [hugo](https://github.com/gohugoio/hugo/graphs/contributors), [hugo docs](https://github.com/gohugoio/hugoDocs/graphs/contributors), and [hugo discussion](https://discourse.gohugo.io/).
+Thank you to all the contributors at [hugo](https://github.com/gohugoio/hugo/graphs/contributors), [hugo docs](https://github.com/gohugoio/hugoDocs/graphs/contributors), and [hugo discussion](https://discourse.gohugo.io/).
