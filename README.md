@@ -8,6 +8,14 @@ The home page is a list of posts by publish date, from newest to oldest. There i
 
 Put your CSS, JS, and image files under `static/`. When the site is generated, i.e. when running the `hugo` command, everything under `static/` will be copied to the root of `public/`. 
 
+## Layout
+
+The main files:
+
+* `layouts/index.html` -- The home page template
+* `layouts/_default/single.html` -- The template for pages and posts. For posts, it inserts the published date and last updated date
+* `layouts/_default/baseof.html` -- The base template that the above templates inherit from
+
 ## Run it
 
 1. [Install hugo](https://gohugo.io/getting-started/installing/)
