@@ -3,7 +3,7 @@
 <h1>{{ .Title }}</h1>
 
 {{ if eq .Type "post"}}
-<small>{{ .PublishDate.Format "January 2, 2006" }}{{ if ne .PublishDate .Lastmod }}, last updated {{ .Lastmod.Format "January 2, 2006" }}{{ end }}</small>
+<small>{{ .PublishDate.Format "January 2, 2006" }}{{ if gt .Lastmod .PublishDate }}, last updated {{ .Lastmod.Format "January 2, 2006" }}{{ end }}</small>
 {{ end }}
 
 {{ .Content }}
