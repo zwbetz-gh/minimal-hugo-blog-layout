@@ -1,11 +1,25 @@
-baseURL = "http://blog-url.com/"
+baseURL = "https://example.com"
 languageCode = "en-us"
-title = "Blog title goes here"
+title = "Some blog title"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = "/:filename/"
 
 [params]
-  description = "Blog description goes here"
+  description = "Some blog description"
+
+[menu]
+  [[menu.nav]]
+  name = "Posts"
+  url = "/"
+  weight = 1
+  [[menu.nav]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+  [[menu.nav]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 3

@@ -27,11 +27,9 @@ The main files:
 
 ## Examples
 
-Create a new post: `hugo new post/<post-title-here>.md`
+Create a new post: `hugo new post/some-post.md`
 
-Create a new page: `hugo new <page-title-here>.md` (then optionally update the nav in `layouts/_default/baseof.html`)
-
-Use the `listimages` [shortcode](https://gohugo.io/content-management/shortcodes/) to list all images in a given directory: `{{< listimages path="/static/img/photo-dir" pathUrl="/img/photo-dir">}}`
+Create a new page: `hugo new some-page.md` (then optionally update the menu nav in `config.toml`)
 
 ## Acknowledgments
 

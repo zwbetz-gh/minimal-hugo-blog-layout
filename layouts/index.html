@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-<h1>Posts</h1>
+{{ $homepage := "" }}{{ range first 1 .Site.Menus.nav }}{{ $homepage = .Name }}{{ end }}
+<h1>{{ $homepage }}</h1>
 
 {{ range where .Pages.ByPublishDate.Reverse "Section" "post" }}
 <p>
