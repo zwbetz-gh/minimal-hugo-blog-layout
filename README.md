@@ -16,9 +16,9 @@ Put your CSS, JS, and image files under `static/`. When the site is generated, i
 
 The main files:
 
-* `layouts/index.html` -- The home page template
-* `layouts/_default/single.html` -- The template for pages and posts. For posts, it inserts the published date and last updated date
-* `layouts/_default/baseof.html` -- The base template that the above templates inherit from
+* `layouts/index.html` - The home page template
+* `layouts/_default/single.html` - The template for pages and posts. For posts, it inserts the published date and last updated date
+* `layouts/_default/baseof.html` - The base template that the above templates inherit from
 
 ## Run it Locally
 
