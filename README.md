@@ -1,4 +1,4 @@
-# Minimal hugo blog layout
+# Minimal Hugo Blog Layout
 
 ## Live Demo
 
