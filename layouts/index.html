@@ -6,7 +6,8 @@
 {{ range where .Pages.ByPublishDate.Reverse "Section" "post" }}
 <p>
     <a href="{{ .Permalink | relURL }}">{{ .Title }}</a>
-    <small>{{ .PublishDate.Format "January 2, 2006" }}</small>
+    <br>
+    <small>{{ .PublishDate.Format "Jan 2, 2006" }}</small>
 </p>
 {{ end }}
 

@@ -2,7 +2,7 @@ baseURL = "https://example.com"
 languageCode = "en-us"
 title = "Some blog title"
 enableRobotsTXT = true
-disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [permalinks]
   post = "/:filename/"
