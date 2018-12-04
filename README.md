@@ -1,5 +1,9 @@
 # Minimal hugo blog layout
 
+## Live Demo
+
+<https://cranky-torvalds-a3e301.netlify.com/>
+
 ## Overview
 
 This layout has no CSS styling. It is merely a starting point for a minimal hugo blog. Read the [hugo docs](https://gohugo.io/documentation/) and add your own styling to make this look how you want. 
@@ -16,7 +20,7 @@ The main files:
 * `layouts/_default/single.html` -- The template for pages and posts. For posts, it inserts the published date and last updated date
 * `layouts/_default/baseof.html` -- The base template that the above templates inherit from
 
-## Run it
+## Run it Locally
 
 1. [Install hugo](https://gohugo.io/getting-started/installing/)
 1. Open a command line and run:
@@ -27,9 +31,8 @@ The main files:
 
 ## Examples
 
-Create a new post: `hugo new post/some-post.md`
-
-Create a new page: `hugo new some-page.md` (then optionally update the menu nav in `config.toml`)
+* Create a new post: `hugo new post/some-post.md`
+* Create a new page: `hugo new some-page.md` (then optionally update the menu nav in `config.toml`)
 
 ## Acknowledgments
 

@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
+  {{ .Hugo.Generator }}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="{{ .Site.Params.description }}">
+  
   {{ if .IsHome }}
   {{ $homepage := "" }}{{ range first 1 .Site.Menus.nav }}{{ $homepage = .Name }}{{ end }}
   <title>{{ $homepage }} | {{ .Site.Title }}</title>
