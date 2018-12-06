@@ -1,6 +1,6 @@
 baseURL = "https://minimal-hugo-blog-layout.netlify.com/"
 languageCode = "en-us"
-title = "Some blog title"
+title = "Some Title"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
@@ -8,7 +8,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   post = "/:filename/"
 
 [params]
-  description = "Some blog description"
+  description = "Some description"
 
 [menu]
   [[menu.nav]]
