@@ -6,9 +6,9 @@
 
 ## Overview
 
-This layout has no CSS styling. It is merely a starting point for a minimal hugo blog. Read the [hugo docs](https://gohugo.io/documentation/) and add your own styling to make this look how you want. 
+This layout has bare minimum CSS styling - it's merely a starting point for a hugo blog. Read the [hugo docs](https://gohugo.io/documentation/) and add your own styling to make this look how you want. 
 
-The home page is a list of posts by publish date, from newest to oldest. There is a basic nav with links to posts, about, and contact pages. 
+The home page is a list of posts by publish date, from newest to oldest. There is a basic nav with links to posts, about, contact, and RSS. 
 
 Put your CSS, JS, and image files under `static/`. When the site is generated, i.e. when running the `hugo` command, everything under `static/` will be copied to the root of `public/`. 
 
@@ -33,7 +33,7 @@ The main files:
 ## Examples
 
 * Create a new post: `hugo new post/some-post.md`
-* Create a new page: `hugo new some-page.md` (then optionally update the menu nav in `config.toml`)
+* Create a new page: `hugo new some-page.md` - then optionally update the menu nav in `config.toml`
 
 ## Acknowledgments
 
