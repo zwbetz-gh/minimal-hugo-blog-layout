@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-<https://cranky-torvalds-a3e301.netlify.com/>
+<https://minimal-hugo-blog-layout.netlify.com/>
 
 ## Overview
 
@@ -16,9 +16,10 @@ Put your CSS, JS, and image files under `static/`. When the site is generated, i
 
 The main files:
 
-* `layouts/index.html` - The home page template
-* `layouts/_default/single.html` - The template for pages and posts. For posts, it inserts the published date and last updated date
-* `layouts/_default/baseof.html` - The base template that the above templates inherit from
+* `layouts/index.html` - Home page template
+* `layouts/post/single.html` - Single post template
+* `layouts/_default/single.html` - Single page template
+* `layouts/_default/baseof.html` - Base template that the above templates inherit from
 
 ## Run it Locally
 
@@ -37,3 +38,5 @@ The main files:
 ## Acknowledgments
 
 Thank you to all the contributors at [hugo](https://github.com/gohugoio/hugo/graphs/contributors), [hugo docs](https://github.com/gohugoio/hugoDocs/graphs/contributors), and the [hugo discussion forum](https://discourse.gohugo.io/).
+
+Site design is based off the [better mother loving website](http://bettermotherfuckingwebsite.com/). 

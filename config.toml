@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://minimal-hugo-blog-layout.netlify.com/"
 languageCode = "en-us"
 title = "Some blog title"
 enableRobotsTXT = true
