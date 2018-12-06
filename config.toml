@@ -23,3 +23,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   name = "Contact"
   url = "/contact/"
   weight = 3
+  [[menu.nav]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 4

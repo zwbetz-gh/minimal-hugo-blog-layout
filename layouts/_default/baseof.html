@@ -38,7 +38,7 @@
 <body>
   <nav>
     {{ range .Site.Menus.nav }}
-    <a href="{{ .URL }}">{{ .Name }}</a>
+    <a href="{{ .URL }}"><strong>{{ .Name }}</strong></a>
     {{ end }}
   </nav>
   
